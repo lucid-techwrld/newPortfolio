@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'myFont';
+  src: url('./public/Fonts/knewave-regular-webfont.woff2') format('woff2'),
+       url('./public/Fonts/knewave-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'josefinsans';
+  src: url('./public/Fonts/josefinsans-variablefont_wght-webfont.woff2') format('woff2'),
+       url('./public/Fonts/josefinsans-variablefont_wght-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+} 
+
+@font-face {
+  font-family: 'boogaloo';
+  src: url('./public/Fonts/boogaloo-regular-webfont.woff2') format('woff2'),
+       url('./public/Fonts/boogaloo-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+} 
+
+body {
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+}
