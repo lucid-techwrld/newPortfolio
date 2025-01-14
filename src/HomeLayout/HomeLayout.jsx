@@ -1,8 +1,8 @@
 import Home from './Home.jsx'
 import Header from './Header.jsx'
 import About from './About.jsx'
-//import Work from './Work.jsx'
-import Footer from './Footer.jsx'
+import Work from './Work.jsx'
+//import Footer from './Footer.jsx'
 
 const HomeLayout = () => {
   return (
@@ -10,7 +10,8 @@ const HomeLayout = () => {
       <Header />
       <Home />
       <About />
-     <Footer />
+      <Work />
+      {/*<Footer />*/}
     </>
   )
 }

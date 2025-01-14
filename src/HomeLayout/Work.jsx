@@ -21,9 +21,9 @@ const Work = () => {
           Mobile <span>(0)</span>
         </div>
       </div>
-      {/*<Project />*/}
+     <Project />
     </>
-  );
+  )
 }
 
-export default Work;
+export default Work

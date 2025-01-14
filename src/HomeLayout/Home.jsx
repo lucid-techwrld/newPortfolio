@@ -16,18 +16,17 @@ function Home() {
           <strong className="text-white">I'm</strong> DAVIS Ayomide
         </p>
       </div>
-      <div>
-        <p className="font-josefinsans text-lg text-white text-center mt-10 font-extrabold">
-          A Software Developer | Robotics | Cybersecurity <strong className="bg-red-500 rounded-full p-1.5 text-black font-extrabold">3.1+ Years Experience</strong>
+      <div className="w-full flex flex-wrap justify-center items-center mt-10 gap-2">
+        <p className="font-josefinsans text-lg text-white text-center  font-extrabold sm:text-2xl">
+          A Software Developer | Robotics | Cybersecurity
         </p>
+        <span className="bg-red-500 h-10 rounded-full p-1.5 text-black font-extrabold text-center">3.1+ Years Experience</span>
       </div>
-      <div className="mt-1 relative w-full p-0 h-72 items-center flex flex-col">
+      <div className="mt-1 relative w-full p-0 h-72 items-center flex flex-col mt-6">
         <img
         src={myImage}
         alt="myImage"
-        width="300px"
-        height="400px"
-        className="bottom-0 absolute z-40"
+        className="bottom-0 absolute z-40 w-[350px] h-[250] sm:w-[400px] sm:h-[300px]"
         />
       <div className="w-72 h-44 rounded-t-full bg-red-500 z-0 bottom-0 absolute">
       </div>

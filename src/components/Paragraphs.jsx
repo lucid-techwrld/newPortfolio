@@ -17,7 +17,7 @@ const Paragraph = () => {
   return (
     <div className="bg-gray-800 rounded p-3 h-auto font-josefinsans font-extrabold">
       {showParagraph.map((text, index)=> (
-        <p key={index} className="text-white text-justify mb-4 text-lg">
+        <p key={index} className="text-white text-justify mb-4 text-lg sm:text-2xl">
           {text}
         </p>
       ))}

@@ -6,7 +6,7 @@ import {
 
 function Header() {
   return (
-    <div className="bg-white rounded-full sm:w-80 md:w-96 lg:w-screen h-auto py-3 px-3 flex justify-between items-center fixed z-50 mt-5 space-x-2">
+    <div className="bg-white rounded-full sm:w-[600px] lg:w-[650px] h-auto py-3 px-3 flex justify-between items-center fixed z-50 mt-5 space-x-2">
       <div className="w-12 h-12 bg-black flex justify-center items-center text-white rounded-full">
         <span className="font-myFont font-extrabold text-2xl">DA</span>
       </div>
