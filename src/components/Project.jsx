@@ -14,7 +14,7 @@ const Project = () => {
   return (
     <div className="flex flex-wrap w-full justify-center px-3 items-center gap-4 mt-6">
       {ProjectInfo.map((info, index) => (
-        <div key={index} className="bg-red-400 rounded-3xl px-6 py-4 h-[650px] w-[350px] sm:w-[320px] lg:w-[470px] flex flex-col">
+        <div key={index} className="bg-red-400 rounded-3xl px-6 py-4 h-auto lg:min-h-[700px] sm:min-h-[600px] w-[350px] sm:w-[320px] lg:w-[470px] flex flex-col">
           <div className="font-josefinsans font-extrabold text-white mt-4 flex flex-col flex-grow space-y-1">
             <p className="text-3xl font-boogaloo text-black">
               {info.name}
