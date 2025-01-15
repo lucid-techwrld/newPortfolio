@@ -3,7 +3,9 @@ import Header from './Header.jsx'
 import About from './About.jsx'
 import Work from './Work.jsx'
 import Education from './Education.jsx'
-//import Footer from './Footer.jsx'
+import Testimonial from './Testimonial.jsx'
+import Contact from './Contact.jsx'
+import Footer from './Footer.jsx'
 
 const HomeLayout = () => {
   return (
@@ -13,7 +15,9 @@ const HomeLayout = () => {
       <About />
       <Work />
       <Education />
-      {/*<Footer />*/}
+      <Testimonial />
+      <Contact />
+      <Footer />
     </>
   )
 }

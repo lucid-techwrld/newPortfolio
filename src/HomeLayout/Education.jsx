@@ -4,7 +4,7 @@ const Education = () => {
   return (
     <>
       <h1 className="text-5xl text-red-500 text-center font-boogaloo mt-10">Education</h1>
-      <div className=" flex flex-wrap w-full h-auto px-2 mt-5 border-4 border-amber-600 lg:gap-4  justify-center">
+      <div className=" flex flex-wrap w-full h-auto px-4 mt-5 justify-center">
         <EduCard
           date="2017 - 2023"
           school="High School"

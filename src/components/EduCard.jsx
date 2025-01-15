@@ -10,7 +10,7 @@ import {
 
 const EduCard = (props) => {
   return (
-    <div className="w-full h-[300px] flex flex-col gap-y-3 px-7 py-4 rounded-3xl bg-white mb-10 lg:w-[700px] sm:w-[250px]">
+    <div className="w-full h-[300px] flex flex-col gap-y-3 px-7 py-4 rounded-3xl bg-white mb-10 lg:w-[700px] sm:w-1/2 sm:border-4 sm:border-black">
       <p className="w-full h-auto px-3 py-3 rounded-full bg-red-500 text-lg text-black flex gap-3 items-center font-bold">
         <MdDateRange /> {props.date}
       </p>
