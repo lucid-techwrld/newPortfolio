@@ -17,9 +17,11 @@ import {
 
 import Paragraph from '../components/Paragraphs.jsx'
 
-const About = () => {
+const About = ({
+  id
+}) => {
   return (
-    <div className="h-auto mt-10 w-screen px-3 z-0">
+    <div id={id} className="h-auto mt-10 w-screen px-3 z-0 mt-10">
       <h2 className="text-center text-3xl text-red-500 font-bold">About Me</h2>
       <div>
         <span className="text-white text-2xl font-myFont">Hobbies</span>

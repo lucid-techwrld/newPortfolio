@@ -8,9 +8,9 @@ import JS from "../assets/Image/JS.png";
 import Django from "../assets/Image/django.png";
 import C from "../assets/Image/c.png";
 
-function Home() {
+function Home({id}) {
   return (
-    <div className="flex flex-col justify-center items-center mt-16 px-3">
+    <div id={id} className="flex flex-col justify-center items-center mt-16 px-3">
       <div className="w-80 h-auto border-2 border-red-500 rounded-full mt-14 p-2">
         <p className="text-2xl text-red-500 font-myFont ml-3">
           <strong className="text-white">I'm</strong> DAVIS Ayomide

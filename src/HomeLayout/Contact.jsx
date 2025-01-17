@@ -9,16 +9,20 @@ import tiktok from "../assets/Image/contactIcons/tik-tok.png"
 import email from "../assets/Image/contactIcons/email.png"
 import cartoonImg from "../assets/Image/contactIcons/cartoonImg.png"
 
-const Contact = () => {
+const Contact = ({
+  id
+}) => {
   return (
     <>
       <h1 className="text-6xl font-boogaloo text-red-500">Contact Me</h1>
-      <div className="w-screen h-auto flex flex-wrap px-2 mt-5 gap-4 justify-center">
+      <div id={id} className="w-screen h-auto flex flex-wrap px-3 mt-5 gap-4 justify-center">
         <ContactCard
+          url=""
           icon={facebook}
           name="Facebook"
           color="text-blue-600" />
         <ContactCard
+        url="https://wa.me/+2347085948512"
           icon={social}
           name="WhatsApp"
           color="text-green-500" />
@@ -31,6 +35,7 @@ const Contact = () => {
           name="LinkedIn"
           color="text-blue-300" />
         <ContactCard
+        url="https://www.tiktok.com/@lucid_techwrld.999?_t=ZM-8t9ckPcedao&_r=1"
           icon={tiktok}
           name="TikTok"
           color="text-black" />

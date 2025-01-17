@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <>
-      <div className="bg-red-500 rounded-full w-[400px] sm:w-[600px] lg:w-[650px] h-auto py-3 px-3 flex justify-between items-center z-50 mt-5 space-x-2">
+      <div className="bg-red-500 rounded-full w-[370px] sm:w-[600px] lg:w-[650px] h-auto py-3 px-3 flex justify-between items-center mt-5 space-x-2 mb-5">
         <div className="w-12 h-12 bg-black flex justify-center items-center text-white rounded-full">
           <span className="font-boogaloo font-extrabold text-2xl">DA</span>
         </div>

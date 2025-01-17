@@ -1,10 +1,13 @@
 import React from 'react';
-import HomeLayout from './HomeLayout/HomeLayout.jsx'
+import { BrowserRouter as Router } from 'react-router-dom';
+import HomeLayout from './HomeLayout/HomeLayout.jsx';
 
 const App = () => {
   return (
     <div className="flex flex-col items-center text-black w-screen">
-      <HomeLayout />
+      <Router>
+        <HomeLayout />
+      </Router>
     </div>
   );
 }
