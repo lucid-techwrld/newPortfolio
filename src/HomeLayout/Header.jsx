@@ -25,6 +25,7 @@ function Header() {
     setMenuOpen(!menuOpen)
   }
   const closeNav = () => {
+    menu.textContent = 'Menu'
     setMenuOpen(false);
   };
 
