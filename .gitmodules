@@ -1,0 +1,3 @@
+[submodule "newPortfolio"]
+	path = newPortfolio
+	url = https://github.com/lucid-techwrld/newPortfolio.git
