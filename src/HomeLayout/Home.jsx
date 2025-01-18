@@ -8,7 +8,9 @@ import JS from "../assets/Image/JS.png";
 import Django from "../assets/Image/django.png";
 import C from "../assets/Image/c.png";
 
-function Home({id}) {
+function Home( {
+  id
+}) {
   return (
     <div id={id} className="flex flex-col justify-center items-center mt-16 px-3">
       <div className="w-80 h-auto border-2 border-red-500 rounded-full mt-14 p-2">
@@ -16,12 +18,12 @@ function Home({id}) {
           <strong className="text-white">I'm</strong> DAVIS Ayomide
         </p>
       </div>
-      <div className="w-full flex flex-wrap justify-center items-center mt-10 gap-2">
-        <p className="font-josefinsans text-lg text-white text-center  font-extrabold sm:text-2xl">
+      <p className="w-full  font-josefinsans text-lg text-white text-center  font-extrabold sm:text-2xl space-x-4 mt-10">
+        <span>
           A Software Developer | Robotics | Cybersecurity
-        </p>
-        <span className="bg-red-500 h-10 rounded-full p-1.5 text-black font-extrabold text-center">3.1+ Years Experience</span>
-      </div>
+        </span>
+        <span className="mr-4 bg-red-500 h-10 rounded-full p-1.5 text-black font-extrabold text-centerw flex justify-center items-center">3.1+ Years Experience</span>
+      </p>
       <div className="mt-1 relative w-full p-0 h-72 items-center flex flex-col mt-6">
         <img
         src={myImage}
