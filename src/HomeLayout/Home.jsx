@@ -32,7 +32,7 @@ function Home( {
         />
       <div className="w-72 h-44 rounded-t-full bg-red-500 z-0 bottom-0 absolute">
       </div>
-      <div className="absolute bottom-0 flex flex-col items-center w-full">
+      <div className="relative bottom-0 flex flex-col items-center w-full gap-y-1.5 sm:gap-y-6 mt-20">
         <TechInfo data={[{ url: Tailwind, name: 'Tailwind Css' },
           { url: Python, name: 'Python' }]} />
         <TechInfo data={[{ url: JS, name: 'JavaScript' },
