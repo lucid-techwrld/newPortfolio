@@ -49,6 +49,7 @@ const Contact = ({
           color="text-gray-600" />
         <ContactCard
           icon={email}
+          url="mailto:lucidtechwrld9@gmail.com"
           name="Email"
           color="text-gray-700" />
       </div>
