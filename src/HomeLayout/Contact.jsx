@@ -31,6 +31,7 @@ const Contact = ({
           name="Instagram"
           color="text-red-500" />
         <ContactCard
+          url="https://www.linkedin.com/in/davis-ayomide-03348934b"
           icon={linkedin}
           name="LinkedIn"
           color="text-blue-300" />
