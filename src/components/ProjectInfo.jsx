@@ -5,6 +5,7 @@ import LANDING from "../assets/Image/landingPage.jpg";
 import MEMORY from "../assets/Image/memoryLane.jpg";
 import weather from "../assets/Image/weatherwise.png";
 import portfolio from "../assets/Image/portfolio.png";
+import chefClaude from "../assets/Image/chefClaude.png";
 
 import { FaReact, FaBootstrap, FaNodeJs, FaPython, FaHtml5 } from "react-icons/fa";
 import { SiTailwindcss, SiJavascript } from "react-icons/si";
@@ -104,6 +105,16 @@ import {
     "React JS",
     "Node.js"],
   url: "https://memorylane-vaq6.onrender.com"
+}, {
+  img: chefClaude,
+  name: "CHEF-CLAUDE AI",
+  category: ["Frontend",
+    "Backend",
+    "AI"],
+  tech: ["Tailwind",
+    "React JS",
+    "Node.js", "Express"],
+  url: "https://chefclaudeai.onrender.com/"
 }];
 
 //export default ProjectInfo
